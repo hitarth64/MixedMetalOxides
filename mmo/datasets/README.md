@@ -1,6 +1,6 @@
 # Directory contains data on Mixed Metal Oxide surfaces
 
-* All the calculations were performed on VASP using PBE+U xc-functional 
+* All the calculations were performed using VASP and GGA+U xc-functional was employed.
 
 * The U-values used are borrowed from [MPRelaxSet](https://github.com/materialsproject/pymatgen/blob/master/pymatgen/io/vasp/MPRelaxSet.yaml)
 
