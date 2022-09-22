@@ -14,4 +14,5 @@ class Data:
       return pd.read_pickle(self.path+type+'Rad.pkl')
     elif type == 'ooh':
       return pd.read_pickle(self.path+type+'Rad.pkl')
-    
+    elif type == 'exp':
+      return pd.read_excel(self.path+'outcome_overpotentials.xlsx')
